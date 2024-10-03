@@ -1,0 +1,101 @@
+
+h1 {
+    color: white;
+    font-style: oblique;
+    text-align:left;
+    font-size: 55px; 
+    position:relative; top: -130px; margin-left: 185px;
+}
+
+h2 {
+    color: white;
+    font-style: oblique;
+    font-size: 38px;  
+    padding-left: 100px;
+    padding-right: 100px;
+    position:relative; 
+    top: -250px;
+    margin-left: 200px;
+}
+
+
+p {
+    color: white;
+    font-style: oblique;
+    font-size: 23px; 
+    text-align: center; 
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0px;
+    position:relative; 
+    top: -250px;
+}
+
+.phome {
+    position:relative; 
+    margin-left: -470px;
+    font-size: 28px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 10px white;
+    padding: 30px 20px;
+    cursor: pointer;
+    position:relative; 
+    font-size: 25px; font-style: oblique;
+}
+
+body {
+    background-color: black;
+
+}
+
+.btn1 {
+    position:relative; top: -230px; margin-left: 700px;
+}
+
+.btn2 {
+    position:relative; top: -318px; margin-left: 850px;
+}
+
+.btn3 {
+    position:relative; top: -406px; margin-left: 1000px;
+}
+
+input{type:text} select, textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.container{
+border-radius: 5px;
+background-color: #ef8215;
+padding: 10px;
+}
+.row{
+border-radius: 1px;
+background-color: rgb(136, 133, 129);
+padding: 5px;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+
+ .cow {
+    position:absolute; top: 250px; margin-left: 1100px;
+ }
