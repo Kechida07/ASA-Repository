@@ -1,0 +1,171 @@
+
+h1 {
+    z-index: 3;
+    color: white;
+    font-style: oblique;
+    text-align:left;
+    font-size: 55px; 
+    position:fixed; left: 170px; top: 20px;
+}
+
+h2 {
+    color: white;
+    font-style: oblique;
+    font-size: 38px; 
+    padding-left: 100px;
+    padding-right: 100px;
+    position:relative; 
+    top: 300px;
+    margin-left: 200px;
+}
+
+p {
+    color: white;
+    font-style: oblique;
+    font-size: 23px; 
+    text-align: center; 
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0px;
+    position:relative; 
+    top: 300px;
+}
+
+img {
+    position:fixed; top: 0px;
+    z-index: 3
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 10px white;
+    padding: 30px 20px;
+    cursor: pointer;
+    position:relative; 
+    font-size: 25px; font-style: oblique;
+}
+
+body {
+    background-color: rgb(9, 15, 15);
+
+}
+
+.btn1 {
+    z-index: 3;
+    position:fixed; top: 75px; margin-left: 725px;
+
+}
+
+.btn2 {
+    z-index: 3;
+    position:fixed; top: 75px; margin-left: 850px;}
+
+.btn3 {
+    z-index: 3;
+    position:fixed; top: 75px; margin-left: 975px;    
+}
+
+.btn4 {
+    z-index: 3;
+    font: oblique;
+}
+
+input{type:text} select, textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container{
+    border-radius: 5px;
+    background-color: #ef8215;
+    padding: 10px;
+}
+
+.row{
+    border-radius: 1px;
+    background-color: rgb(136, 133, 129);
+    padding: 5px;
+}
+
+form {
+    position:relative; margin-top: 200px
+
+}
+
+label {
+    color: white;
+    font: oblique
+}
+
+.menu {
+
+    background-color: black;
+    height:150px;
+    margin: 0; padding: 0;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 2;
+    position:fixed;
+}
+
+.cow {
+    position:absolute; top: 250px; margin-left: 1100px;
+ }
+
+ .phome {
+    position:relative; 
+    margin-left: -470px;
+    font-size: 28px;
+}
+
+.COTW {
+    margin-left: 990px;
+    font-size: 16px;
+}
+
+.COTW2 {
+    margin-left: 990px;
+}
+
+.bottombar {
+
+    background-color: black;
+    height:75px;
+    margin: 0; padding: 0;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 2;
+    position:fixed;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.15;
+ }
+
+ .imageside {
+    
+ }

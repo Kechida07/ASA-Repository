@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="menu"></div>    
+</head>
+
+<body>
+    <header> 
+        <link rel="stylesheet" href="../css/maincss.css">
+        <img src='../media/WOFLogo.png.png' width="150px" height="150px">
+        <h1>Wheels on Fire</h1>
+        <button type="custom-button" class="btn1"><a href='index.html'>Home</a></button>
+        <button type="custom-button" class="btn2"><a href='about.html'>About</a> </button>
+        <button type="custom-button" class="btn3"><a href='contact.html'>Contact</a></button>
+          <form>
+                <label for=  "firstname"><center><p>First Name:</p></center></label>
+                <center><input type ="text" id="firstname" name="ABOUT_US"></center>
+                
+                <center><label for="lastname">Name:</label></center>
+                <center><input type ="text" id="lastname" name="ABOUT_US"></center> 
+
+                <label for ="email"><center>Email*</center></label>
+                <center><input type ="text" id="email" name="ABOUT_US"</center>
+
+                <label for="contactmethod"><center>Preffered Contact Method</center></label>
+                <center><select id="contactmethod" name="Methods"></center>
+                    <option value="call">Call</option>
+                    <option value="text">Text</option>
+                    <option value="email">Email</option>
+                </select>
+                
+                <label for="message"><center>Message*</center></label>
+                <center><textarea name="message" rows="10" cols="30" >
+                </textarea>
+
+                <center><button class="btn4" onclick="alert('ready to send?')" style="position: relative; margin-top: -50px;">Send</button></center>
+                
+                </textarea></center>
+           </form>
+    </header>
+</body>
+<div class="bottombar"></div>
+
+</html>
