@@ -1,0 +1,359 @@
+/* General Styling */
+body {
+    background-color: rgb(9, 15, 15);
+}
+
+h1, h2, p {
+    color: white;
+    font-style: oblique;
+}
+
+/* Header Styling */
+h1 {
+    z-index: 3;
+    text-align: left;
+    font-size: 55px;
+    position: fixed;
+    left: 170px;
+    top: 20px;
+}
+
+h2 {
+    font-size: 38px;
+    position: relative;
+    top: 300px;
+    margin-left: 200px;
+    padding: 0 100px;
+}
+
+p {
+    font-size: 23px;
+    text-align: center;
+    padding: 0 100px;
+    margin: 0;
+    position: relative;
+    top: 300px;
+}
+
+/* Image Styling */
+img {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+/* Button Styling */
+button {
+    background-color: transparent;
+    color: white;
+    padding: 30px 20px;
+    cursor: pointer;
+    position: relative;
+    font-size: 25px;
+    font-style: oblique;
+    border: none; /* Remove any borders */
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: lightgray;
+}
+
+/* Button Positions */
+.btn1, .btn2, .btn3, .btn4, .btn5 {
+    z-index: 3;
+    position: fixed;
+    top: 75px;
+}
+
+.btn1 { left: 620px; }
+.btn2 { left: 740px; }
+.btn3 { left: 860px; }
+.btn4 { left: 990px; }
+.btn5 { left: 1185px; }
+
+/* Contact Title */
+#ContactTitle {
+    z-index: 1;
+    position: right;
+    text-align: center;
+    margin: 400px 300px 0 0;
+    font-size: 55px;
+}
+
+/* Form Styling */
+form {
+    font-family: "Days One", sans-serif;
+    position: relative;
+    margin-top: 200px;
+}
+
+/* Submit Button Styling */
+button.submit {
+    background-color: #ef8215;
+    border: none;
+    color: rgb(246, 243, 243);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.submit:hover {
+    background-color: chocolate;
+}
+
+/* Input and Textarea Styling */
+input[type="text"], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Container Styling */
+.container {
+    border-radius: 5px;
+    background-color: #ef8215;
+    padding: 10px;
+}
+
+/* Row Styling */
+.row {
+    border-radius: 1px;
+    background-color: rgb(136, 133, 129);
+    padding: 5px;
+}
+
+/* Label Styling */
+label {
+    color: white;
+    font-style: oblique;
+}
+
+/* Menu Styling */
+.menu {
+    background-color: black;
+    height: 150px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+/* Cow Icon Styling */
+.cow {
+    position: absolute;
+    top: 250px;
+    margin-left: 1100px;
+}
+
+/* Footer Navigation Styling */
+.phome {
+    position: relative;
+    margin-left: -470px;
+    font-size: 28px;
+}
+
+.COTW, .COTW2 {
+    font-family: "Days One", sans-serif;
+    margin-top: 50px;
+}
+
+.COTW {
+    margin-left: 990px;
+    font-size: 16px;
+}
+
+.COTW2 {
+    margin-left: 990px;
+    margin-top: 5px;
+}
+
+/* Car Brands Styling */
+.Ferrari {
+    position: fixed;
+    margin: 705px 300px 0 0;
+    height: 25px;
+}
+
+.Chevrolet {
+    position: fixed;
+    margin: 715px 0 0 1070px;
+    height: 20px;
+}
+
+.Porsche {
+    position: fixed;
+    margin: 710px 0 0 600px;
+    height: 20px;
+}
+
+.BMW {
+    position: fixed;
+    margin: 695px 0 0 200px;
+    height: 40px;
+}
+
+.Mclaren {
+    position: fixed;
+    margin: 700px 0 0 335px;
+    height: 30px;
+}
+
+.Merc {
+    position: fixed;
+    margin: 700px 0 0 975px;
+    height: 40px;
+}
+
+.Lambo {
+    position: fixed;
+    margin: 700px 0 0 1330px;
+    height: 40px;
+}
+
+/* Bottom Bar Styling */
+.bottombar {
+    background-color: black;
+    height: 65px;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+/* Background Video Styling */
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.25;
+}
+
+/* Gallery Images */
+.thegallery {
+    font-family: "Days One", sans-serif;
+    align-self: center;
+    margin-left: 25px;
+}
+
+.bfriday {
+    font-family: "Days One", sans-serif;
+    align-self: center;
+    margin-left: 25px;
+}
+
+.gal1 {
+    font-family: "Days One", sans-serif;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+
+.gal2 {
+    font-family: "Days One", sans-serif;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+
+.gal3 {
+    font-family: "Days One", sans-serif;
+    margin-left: 750px;
+    margin-top: 200px;
+}
+
+
+.gal4 {
+    font-family: "Days One", sans-serif;
+    margin-left: 1100px;
+    margin-top: 200px;
+}
+
+
+.pgal1 {
+    margin-left: -1090px; 
+    margin-top: 25px;
+}
+
+
+.pgal2 {
+    margin-left: -390px; 
+    margin-top: -25px;
+}
+
+
+.pgal3 {
+    margin-left: 310px; 
+    margin-top: -25px;
+}
+
+
+.pgal4 {
+    margin-left: 1012px; 
+    margin-top: -25px;
+}
+
+
+.se2 {
+    margin-left: 300px;
+    margin-top: 170px;
+}
+
+
+.se3 {
+    margin-left: 800px;
+    margin-top: 170px;
+}
+
+
+.wse2 {
+    margin-left: -520px; 
+    margin-top: -430px;
+}
+
+
+.wse3 {
+    margin-left: 500px; 
+    margin-top: -25px;
+    
+}
+
+
+.galdesc {
+    margin-top: 45px;
+}
+
+
+
+/* Miscellaneous */
+.Number {
+    margin-left: 1300px;
+}
